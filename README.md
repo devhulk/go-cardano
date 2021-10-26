@@ -8,6 +8,7 @@ Just beginning development. Contributors welcome.
 - Go installed
 - Tested on Debian GNU/Linux 10 (buster) so should work on Debian based systems
 - Cardano Node Must be Up and Running. Here is a [guide](https://developers.cardano.org/docs/get-started/installing-cardano-node)
+- Tested using cardano-cli 1.30.0
 
 
 ### Functionality
