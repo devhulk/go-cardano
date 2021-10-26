@@ -60,20 +60,6 @@ func CreatePaymentAddress(name string) *Wallet {
         fmt.Println(err2.Error())
     }
 
-    // fmt.Println(string(stdout2))
-
-    // printDir := exec.Command("pwd")
-
-    // location, err3 := printDir.Output()
-
-    // if err3 != nil {
-    //     fmt.Println(err3.Error())
-    // }
-
-    // fmt.Print(string(location))
-
-    // Mkdir with keys and payment addr
-
     walletDir := fmt.Sprintf("priv/%v", string(name))
 
     mkdir := exec.Command("mkdir", "-p", walletDir)
